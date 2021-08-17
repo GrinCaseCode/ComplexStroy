@@ -740,7 +740,7 @@ body {
 .billbord__buttons .btn-main {
 	width: 100%;
 	max-width: 270px;
-	margin: 0 auto;
+	margin: 0 auto; 
 	margin-top: 20px;
 	    font-size: 12px;
     padding: 0px 27px;
