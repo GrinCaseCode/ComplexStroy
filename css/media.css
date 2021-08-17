@@ -565,14 +565,7 @@
     line-height: 27px;
     margin-bottom: 20px;
 }
-.billbord__buttons {
-	display: block;
-	padding-top: 0;
-}
-.billbord__buttons .btn-main {
-	width: 100%;
-	margin-top: 20px;
-}
+
 .billbord {
 	padding-bottom: 35px;
 }
@@ -722,6 +715,10 @@ body {
 .wrapper {
 	padding-top: 86px;
 }
+.billbord__buttons .btn-main {
+	font-size: 11px;
+	padding: 0 10px;
+}
 }
 @media only screen and (max-width : 360px) {
 .header .logo img {
@@ -734,6 +731,19 @@ body {
 }
 .wrapper {
 	padding-top: 79px;
+}
+.billbord__buttons {
+	display: block;
+	text-align: center;
+	padding-top: 0;
+}
+.billbord__buttons .btn-main {
+	width: 100%;
+	max-width: 270px;
+	margin: 0 auto;
+	margin-top: 20px;
+	    font-size: 12px;
+    padding: 0px 27px;
 }
 }
 /* Custom, iPhone Retina */
