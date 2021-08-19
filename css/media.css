@@ -892,7 +892,7 @@ body {
 	padding-bottom: 25px;
 }
 .project-wrap .portfolio-nav__item {
-    height: 50px;
+    height: 50px; 
 }
 .project-wrap .portfolio-nav {
 	margin-top: -50px;
@@ -903,6 +903,7 @@ body {
 .project-wrap .feature-portfolio__title {
     font-size: 10px;
     line-height: 15px;
+    padding-bottom: 5px;
 }
 .descr-big {
 	padding-top: 0;

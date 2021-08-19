@@ -24,7 +24,7 @@ body textarea:required:valid {
 
 }
 body {
-	font-family: 'Proba Pro';
+	font-family: 'Proba Pro'; 
 	font-size: 16px;
 	color: #393C4B;
 	overflow-x: hidden;
@@ -34,7 +34,7 @@ body {
 button {
 	cursor: pointer;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 { 
 	padding: 0;
 	margin: 0;
 	font-weight: normal;
