@@ -20,7 +20,7 @@
 	}
 	.row_services > div:nth-child(1) .item-service, .row_services > div:nth-child(2) .item-service {
 		padding-bottom: 22px;
-	}
+	} 
 	.item-service__name {
 		font-size: 24px;
 	}
