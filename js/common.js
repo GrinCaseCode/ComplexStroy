@@ -89,9 +89,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 
 
-	$('.portfolio-for').each(function(){
+	$('.slider-portfolio .portfolio-for').each(function(){
 		var $this = $(this),
-		$this_siblings = $(this).siblings(".portfolio-nav");
+		$this_siblings = $(this).siblings(".slider-portfolio .portfolio-nav");
 		$this.slick({
 			arrows: false,
 			dots: false,
@@ -104,14 +104,43 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		});
 	});
 
-	$('.portfolio-nav').each(function(){
+	$('.slider-portfolio .portfolio-nav').each(function(){
 		var $this = $(this),
-		$this_siblings = $(this).siblings(".portfolio-for");
+		$this_siblings = $(this).siblings(".slider-portfolio .portfolio-for");
 		$this.slick({
 			arrows: false,
 			dots: false,
 			infinite: true,
 					swipe: false,
+			focusOnSelect: true,
+			asNavFor: $this_siblings,
+			touchThreshold: 1000,
+			slidesToShow: 6,
+			slidesToScroll: 1
+		});
+	});
+
+	$('.project-wrap .portfolio-for').each(function(){
+		var $this = $(this),
+		$this_siblings = $(this).siblings(".project-wrap .portfolio-nav");
+		$this.slick({
+			arrows: false,
+			dots: false,
+			infinite: true,
+			asNavFor: $this_siblings,
+			slidesToShow: 1,
+			touchThreshold: 1000,
+			slidesToScroll: 1
+		});
+	});
+
+	$('.project-wrap .portfolio-nav').each(function(){
+		var $this = $(this),
+		$this_siblings = $(this).siblings(".project-wrap .portfolio-for");
+		$this.slick({
+			arrows: false,
+			dots: false,
+			infinite: true,
 			focusOnSelect: true,
 			asNavFor: $this_siblings,
 			touchThreshold: 1000,
