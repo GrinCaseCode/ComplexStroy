@@ -2100,6 +2100,9 @@ p {
 .row_article > .col-lg-7 td:last-child {
 	border-right: 1px solid #E0E1E1;
 }
+.row_article > .col-lg-7 td p:last-child {
+	margin-bottom: 0;
+}
 .row_article .row {
 	margin-bottom: 30px;
 	margin-top: 30px;
