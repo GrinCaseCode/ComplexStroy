@@ -942,6 +942,9 @@
 .benefits_rent {
 	background-image: none;
 }
+.item-project__content {
+	min-height: initial;
+}
 }
 
 /* Extra Small Devices, Phones */
