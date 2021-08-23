@@ -265,13 +265,13 @@ p {
 	opacity: 0;
 }
 .sandwich.active .sw-footer {
-	top: 8px;
+	top: 8px; 
 	transform: rotate(-45deg);
 }
 /*End Sandwich*/
 .billbord {
 	padding-top: 115px;
-	min-height: 850px;
+	min-height: 850px; 
 	display: flex;
 	flex-direction: column;
 	background-repeat: no-repeat;

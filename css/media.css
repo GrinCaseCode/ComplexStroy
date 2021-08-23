@@ -1251,10 +1251,10 @@
     	padding-right: 0;
     }
     .item-rent .content-rent {
-    	padding-left: 15px;
+    	padding-left: 15px; 
     	padding-right: 15px;
     	padding-top: 15px;
-    }
+    } 
     .content-rent .btn-main {
     height: 55px;
     min-width: 140px;
