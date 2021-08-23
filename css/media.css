@@ -109,20 +109,27 @@
 		height: 240px;
 	}
 	.callback-section .list-social img {
-    width: 39px;
-    max-width: 39px;
-}
-.item-rent .slider-photos {
-    padding-left: 86px;
-    padding-right: 62px;
-}
-.item-rent:nth-child(even) .slider-photos .slick-next {
-    right: 20px;
-}
-.item-rent:nth-child(even) .slider-photos {
-    padding-right: 86px;
-    padding-left: 62px;
-}
+		width: 39px;
+		max-width: 39px;
+	}
+	.item-rent .slider-photos {
+		padding-left: 86px;
+		padding-right: 62px;
+	}
+	.item-rent:nth-child(even) .slider-photos .slick-next {
+		right: 20px;
+	}
+	.item-rent:nth-child(even) .slider-photos {
+		padding-right: 86px;
+		padding-left: 62px;
+	}
+	.measurer .title-section {
+		font-size: 24px;
+		padding-bottom: 24px;
+	}
+	.steps_engineering .title-section {
+		padding-bottom: 60px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -323,25 +330,52 @@
 		background-position: center;
 	}
 	.slider-photos__item {
-    height: 350px;
-}
-.slider-documents {
-	padding-bottom: 100px;
-}
-.price-main {
-    font-size: 33px;
-    line-height: 44px;
-    }
-    .content-rent {
-    	padding-left: 25px;
-    	padding-right: 15px;
-    }
-    .title-middle {
-    font-size: 23px;
-}
-.benefits_rent {
-	    background-position: 62% 50%;
-}
+		height: 350px;
+	}
+	.slider-documents {
+		padding-bottom: 100px;
+	}
+	.price-main {
+		font-size: 33px;
+		line-height: 44px;
+	}
+	.content-rent {
+		padding-left: 25px;
+		padding-right: 15px;
+	}
+	.title-middle {
+		font-size: 23px;
+	}
+	.benefits_rent {
+		background-position: 62% 50%;
+	}
+	.billbord_design .billbord-bottom {
+		padding: 30px 0;
+	}
+	.item-step ul {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.title-form {
+		font-size: 21px;
+		line-height: 27px;
+	}
+	.billbord_engineering ul {
+		padding-top: 0;
+	}
+	.billbord_engineering .billbord__buttons {
+		padding-top: 0px;
+	}
+	.benefits_engineering {
+		background-image: none;
+	}
+	.our-projects_engineering {
+		padding-top: 40px;
+		padding-bottom: 0;
+	}
+	.item-project__name {
+		font-size: 18px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -588,7 +622,7 @@
 		padding-bottom: 30px;
 	}
 	.benefits_rent {
-		    background-position: right bottom;
+		background-position: right bottom;
 	}
 	.unit_rent {
 		padding-top: 50px;
@@ -596,6 +630,15 @@
 	}
 	.item-rent:nth-child(even)::after {
 		left: 0;
+	}
+	.measurer {
+		padding: 50px 0;
+	}
+	.get-design {
+		padding: 50px 0;
+	}
+	.get-design .col-lg-7 .title-section {
+		padding-top: 20px;
 	}
 }
 
@@ -886,65 +929,87 @@
 		font-size: 13px;
 	}
 	.unit {
-    padding-top: 33px;
-    padding-bottom: 55px;
+		padding-top: 33px;
+		padding-bottom: 55px;
+	}
+	.slider-photos {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 60px;
+	}
+	.slider-photos .slick-dots {
+		bottom: 25px;
+	}
+	.documents {
+		padding: 50px 0;
+		padding-top: 35px;
+	}
+	.slider-documents {
+		padding: 50px 20px;
+		margin-top: 10px;
+	}
+	.slider-documents .slick-dots {
+		bottom: 20px;
+	}
+	.callback-section .title-section {
+		font-size: 27px;
+		padding-bottom: 0;
+	}
+	.callback-section .row_form .btn-main {
+		margin-top: 15px;
+	}
+	.title-middle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.unit .title-middle {
+		padding-bottom: 15px;
+	}
+	.slider-photos__item {
+		height: 300px;
+	}
+	.item-rent:nth-child(even) .slider-photos, .item-rent .slider-photos {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.item-rent .content-rent {
+		margin-left: 15px;
+		margin-right: 15px;
+		width: initial;
+		max-width: initial;
+		padding-bottom: 30px;
+	}
+	.benefits_rent .title-section {
+		padding-bottom: 15px;
+	}
+	.benefits_rent {
+		background-image: none;
+	}
+	.item-project__content {
+		min-height: initial;
+	}
+	.measurer ul li {
+		margin-bottom: 15px;
+	}
+	.measurer .title-section {
+		padding-bottom: 15px;
+	}
+	.billbord_engineering .billbord__buttons {
+		padding-top: 20px;
+	}
+	.benefits_engineering .title-section {
+		padding-bottom: 15px;
+	}
+	.our-projects_engineering { 
+		padding-top: 0;
+	}
+	.our-projects__head .btn-main {
+		margin-top: 0;
+	}
+	.steps_engineering .title-section {
+    padding-bottom: 24px;
 }
-.slider-photos {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 60px;
-}
-.slider-photos .slick-dots {
-    bottom: 25px;
-}
-.documents {
-	padding: 50px 0;
-	padding-top: 35px;
-}
-.slider-documents {
-	padding: 50px 20px;
-	margin-top: 10px;
-}
-.slider-documents .slick-dots {
-    bottom: 20px;
-}
-.callback-section .title-section {
-    font-size: 27px;
-    padding-bottom: 0;
-}
-.callback-section .row_form .btn-main {
-	margin-top: 15px;
-}
-.title-middle {
-    font-size: 20px;
-    line-height: 26px;
-    }
-    .unit .title-middle {
-    	padding-bottom: 15px;
-    }
-    .slider-photos__item {
-    height: 300px;
-}
-.item-rent:nth-child(even) .slider-photos, .item-rent .slider-photos {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.item-rent .content-rent {
-	margin-left: 15px;
-	margin-right: 15px;
-	width: initial;
-	max-width: initial;
-	padding-bottom: 30px;
-}
-.benefits_rent .title-section {
-	padding-bottom: 15px;
-}
-.benefits_rent {
-	background-image: none;
-}
-.item-project__content {
-	min-height: initial;
-}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1218,63 +1283,84 @@
 		padding-bottom: 55px;
 	}
 	.title-middle {
-    font-size: 18px;
-    line-height: 26px;
-}
-.slider-photos {
-	padding-left: 0;
-	padding-right: 0;
-}
-.slider-photos__item {
-    height: 265px;
-}
-.slick-dots li button {
-	width: 10px;
-	height: 10px;
-}
-.slick-dots li {
-	width: 10px;
-	height: 10px;
-}
-.slider-photos .slick-dots {
-    bottom: 29px;
-}
-.slider-documents {
-	padding-left: 0;
-	padding-right: 0;
-}
-.callback-section .title-section {
-    font-size: 24px;
-    }
-    .callback-section {
-    	padding-bottom: 40px;
-    }
-    .item-rent:nth-child(even) .slider-photos, .item-rent .slider-photos {
-    	padding-left: 0;
-    	padding-right: 0;
-    }
-    .item-rent .content-rent {
-    	padding-left: 15px; 
-    	padding-right: 15px;
-    	padding-top: 15px;
-    } 
-    .content-rent .btn-main {
-    height: 55px;
-    min-width: 140px;
-}
-.price-main {
-    font-size: 25px;
-    line-height: 39px;
-}
-.rent {
-	padding: 40px 0;
-}
-.item-rent {
-	padding-bottom: 30px;
-}
-.portofolio-page .title-section {
-	padding-bottom: 20px;
-}
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.slider-photos {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.slider-photos__item {
+		height: 265px;
+	}
+	.slick-dots li button {
+		width: 10px;
+		height: 10px;
+	}
+	.slick-dots li {
+		width: 10px;
+		height: 10px;
+	}
+	.slider-photos .slick-dots {
+		bottom: 29px;
+	}
+	.slider-documents {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.callback-section .title-section {
+		font-size: 24px;
+	}
+	.callback-section {
+		padding-bottom: 40px;
+	}
+	.item-rent:nth-child(even) .slider-photos, .item-rent .slider-photos {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.item-rent .content-rent {
+		padding-left: 15px; 
+		padding-right: 15px;
+		padding-top: 15px;
+	} 
+	.content-rent .btn-main {
+		height: 55px;
+		min-width: 140px;
+	}
+	.price-main {
+		font-size: 25px;
+		line-height: 39px;
+	}
+	.rent {
+		padding: 40px 0;
+	}
+	.item-rent {
+		padding-bottom: 30px;
+	}
+	.portofolio-page .title-section {
+		padding-bottom: 20px;
+	}
+	.unit .slider-photos {
+		margin-top: 10px;
+	}
+	.unit { 
+		line-height: 21px;
+	}
+	.measurer .title-section {
+		font-size: 21px;
+	}
+	.billbord_engineering .billbord__buttons {
+		padding-top: 0;
+	}
+	.benefits_engineering {
+		padding-bottom: 20px;
+	}
+	.our-projects_engineering {
+		padding-bottom: 0;
+	}
+	.steps_engineering {
+		padding-top: 20px;
+	}
 }
 @media only screen and (max-width : 360px) {
 	.header .logo img {
