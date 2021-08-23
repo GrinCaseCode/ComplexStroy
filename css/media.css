@@ -1361,6 +1361,14 @@
 	.steps_engineering {
 		padding-top: 20px;
 	}
+	.billbord_about .billbord__buttons .btn-main,
+	.billbord_house .billbord__buttons .btn-main,
+	.billbord_engineering .billbord__buttons .btn-main,
+	.billbord_design .billbord__buttons .btn-main,
+	.billbord_rent .billbord__buttons .btn-main {
+    width: 100%;
+    max-width: 300px;
+}
 }
 @media only screen and (max-width : 360px) {
 	.header .logo img {
