@@ -1284,6 +1284,7 @@
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.4"></script>
+<!--
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function() {
@@ -1366,6 +1367,30 @@
 				balloonOffset: [ 0, -40 ]
 			});
 
+			myPlacemark1.events.add('mouseenter', function (e) {
+				myPlacemark1.balloon.open();
+			});
+			myPlacemark2.events.add('mouseenter', function (e) {
+				myPlacemark2.balloon.open();
+			});
+			myPlacemark3.events.add('mouseenter', function (e) {
+				myPlacemark3.balloon.open();
+			});
+			myPlacemark4.events.add('mouseenter', function (e) {
+				myPlacemark4.balloon.open();
+			});
+
+			$(document).mouseup(function (e){ 
+				var div = $(".ymaps-2-1-79-balloon");
+				if (!div.is(e.target) 
+					&& div.has(e.target).length === 0) { 
+					myPlacemark1.balloon.close();
+				myPlacemark2.balloon.close();
+				myPlacemark3.balloon.close();
+				myPlacemark4.balloon.close();
+			}
+		});
+
 
 			myMap.controls.remove('searchControl');
 			myMap.behaviors.disable('scrollZoom');
@@ -1382,7 +1407,7 @@
 			myMap.geoObjects.add(myPlacemark4);
 		}
 	});
-</script>
+</script> -->
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
